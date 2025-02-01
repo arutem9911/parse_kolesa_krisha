@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "parse-sites-indexation-collateral"
+version = "0.1.0"
+description = ""
+authors = ["aruzhant1209 <@aruzhant1209>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "^3.11.10"
+fastapi = "^0.111.0"
+uvicorn = "^0.30.1"
+loguru = "^0.7.2"
+pymongo = "^4.7.3"
+pydantic = "^2.7.4"
+pre-commit = "^3.7.1"
+orjson = "^3.10.10"
+beautifulsoup4 = "^4.12.3"
+pandas = "^2.2.3"
+psycopg2-binary = "^2.9.10"
+brotlicffi = "^1.1.0.0"
+sqlalchemy = "^2.0.37"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
